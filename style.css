@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  position: sticky;
+}
+#brand-main-logo{
+  width: 20vw;
+}
+.row{
+  background-color: rgba(0, 0, 0,0.1);
+  align-items: center;
+  justify-content: space-around;
+}
+a{
+  text-decoration: none;
+color: red;
+}
+/* ---------^Header^-------- */
+.bgphoto{
+background-size: cover;
+background-position: bottom;
+width: 100%;
+height: 50vh;
+position: absolute;
+animation-name: backgroundimg;
+animation-duration: 16s;
+animation-iteration-count: infinite;
+}
+
+@keyframes backgroundimg {
+  from{background-image: url(Backgorund/pexels-erik-mclean-7524994.jpg);}
+  to {background-image: url(Backgorund/pexels-antonio-dillard-4462781.jpg);}
+}
+
+.main-title{
+  position: relative;
+color: white;  
+
+}
