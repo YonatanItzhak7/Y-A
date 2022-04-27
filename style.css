@@ -1,42 +1,68 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.container {
   position: sticky;
 }
-#brand-main-logo{
+#brand-main-logo {
   width: 20vw;
 }
-.row{
-  background-color: rgba(0, 0, 0,0.1);
+.row {
   align-items: center;
   justify-content: space-around;
 }
-a{
+a {
   text-decoration: none;
-color: red;
+  color: red;
+}
+#zoomicon {
+  width: 5vw;
 }
 /* ---------^Header^-------- */
-.bgphoto{
-background-size: cover;
-background-position: bottom;
-width: 100%;
-height: 50vh;
-position: absolute;
-animation-name: backgroundimg;
-animation-duration: 16s;
-animation-iteration-count: infinite;
+.bgphoto {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  animation-name: backgroundimg;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  display: flex;
 }
 
 @keyframes backgroundimg {
-  from{background-image: url(Backgorund/pexels-erik-mclean-7524994.jpg);}
-  to {background-image: url(Backgorund/pexels-antonio-dillard-4462781.jpg);}
+  0% {
+    background-image: url(Backgorund/pexels-erik-mclean-7524994.jpg);
+  }
+  50% {
+    background-image: url(Backgorund/pexels-antonio-dillard-4462781.jpg);
+  }
+  75% {
+    background-image: url(Backgorund/pexels-gonzalo-acuña-10923060.jpg);
+  }
+  100% {
+    background-image: url(Backgorund/pexels-hipkicks-6747236.jpg);
+  }
 }
 
-.main-title{
-  position: relative;
-color: white;  
+.main-title {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  justify-content: flex-end;
+}
+#headone{
+  background-color: rgb(255, 255, 255,0.4);
+}
 
+.aboutshoe{
+  display: flex;
+  flex-direction: column;
+
+}
+.headabout{
+  text-align: center;
 }
