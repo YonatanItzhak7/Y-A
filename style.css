@@ -16,7 +16,7 @@
 }
 a {
   text-decoration: none;
-  color: red;
+  color: white;
 }
 #zoomicon {
   width: 5vw;
@@ -52,19 +52,28 @@ a {
   color: black;
   display: flex;
   flex-direction: column;
-  text-align:center;
+  text-align: center;
   justify-content: flex-end;
 }
-#headone{
-  background-color: rgb(255, 255, 255,0.4);
+#headone {
+  background-color: rgb(255, 255, 255, 0.4);
 }
 
-.aboutshoe{
+.aboutshoe {
   display: flex;
   flex-direction: column;
-
 }
-.headabout{
+.headabout {
   text-align: center;
   margin-top: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.buttom-link {
+  padding: 8px 15px;
+  background: red;
+  border-radius: 30px;
+  color: whitesmoke;
+  width: 20vw;
 }
