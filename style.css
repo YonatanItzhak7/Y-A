@@ -3,8 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 .container {
   position: sticky;
+=======
+.container{
+  position: sticky; 
+>>>>>>> c50da92aef25c1374e9c5bc1faf3e17781e2417c
 }
 #brand-main-logo {
   width: 20vw;
