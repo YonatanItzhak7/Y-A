@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600&family=Anton&family=Archivo+Narrow:ital,wght@1,600&family=Lato:ital,wght@0,400;0,700;1,700;1,900&display=swap");
+* {
+  margin: 2px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body , html{
+    overflow-x: hidden;
+  } */
+
+.container {
+  position: fixed;
+  margin-top: 7vw;
+  font-family: "Akshar", sans-serif;
+}
+#brand-main-logo {
+  width: 20vw;
+  margin: -3vw;
+}
+.row {
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.menu-row {
+  margin-top: -16vw;
+  padding: 1vw;
+  position: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+menu:hover {
+  color: red;
+}
+#menu {
+  background-color: black;
+  border-radius: 30px;
+  padding: 3px 7px;
+}
+p {
+  font-size: 5vw;
+  font-family: "Akshar", sans-serif;
+  text-align: center;
+}
+#zoomicon {
+  width: 5vw;
+}
+.main-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vw;
+  border-bottom: 5px solid red;
+  text-align: center;
+  padding: none;
+}
+
+#aboutlogo {
+  width: 40vw;
+}
+.profileimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.line {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  background-color: red;
+  border: 2px solid red;
+}
+.aviel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+}
+.line2 {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  background-color: burlywood;
+  border: 2px solid burlywood;
+  margin-top: -2vw;
+}
+#aviel-name {
+  text-align: center;
+}
+/* ------------^Footer^------------ */
+.footer {
+  padding: 5px 0;
+  background-color: rgb(68, 68, 68, 0.2);
+  margin-top: 6vw;
+  position: static;
+}
+.footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: red;
+}
+.footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+.footer .social a:hover {
+  opacity: 0.9;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul li a:hover {
+  opacity: 1;
+}
+.copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 600px) {
+  
+  .menu-row {
+    flex-wrap: nowrap;
+    font-size: 2vw;
+    left: 6vw;
+    gap: 7vw;
+    margin-top: -28vh;
+  }
+  #brand-main-logo {
+    width: 12vw;
+  }
+  #yonatanteammember {
+    padding: 30%;
+  }
+  #avielteammember {
+    padding: 30%;
+  }
+  .title-name {
+    margin-top: -13vw;
+    font-size: 2px;
+  }
+  p {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .line2 {
+    margin-top: 2vw;
+  }
+  .soicaltog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
